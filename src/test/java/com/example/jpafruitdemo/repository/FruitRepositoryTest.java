@@ -1,6 +1,7 @@
 package com.example.jpafruitdemo.repository;
 
 import com.example.jpafruitdemo.dao.Fruit;
+import lombok.AllArgsConstructor;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -11,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class FruitRepositoryTest {
+
 
     @Autowired
     FruitRepository fruitRepository;
